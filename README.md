@@ -1,3 +1,3 @@
 # Rubik's Cube
 
-WIP
+![Rubik's Cube](./public/favico.png)
