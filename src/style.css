@@ -15,8 +15,8 @@ main {
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
-  transform: translateZ(-100px) rotateX(0deg) rotateY(45deg) rotateZ(135deg);
-  transition: transform 1s;
+  transform: translateZ(-100px) rotateX(var(--rotate-y, 0))
+    rotateY(var(--rotate-x, 0));
 }
 
 .cube__face {
